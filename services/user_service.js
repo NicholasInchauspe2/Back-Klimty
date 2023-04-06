@@ -3,7 +3,7 @@ const Checkout = require("../models/Checkout");
 
 const getAllUsers = async () => {
     try {
-        const allUsers = await User.findAll()
+        const allUsers = await User.findAll();
         return allUsers
     } catch (err) {
         return err
